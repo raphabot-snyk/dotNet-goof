@@ -7,6 +7,8 @@ namespace dotNet_goof
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+            String password = "SecretPassword123!";
+            Console.WriteLine("The secret password is " + password);
         }
     }
 }

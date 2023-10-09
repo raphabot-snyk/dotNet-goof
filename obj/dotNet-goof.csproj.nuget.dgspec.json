@@ -1,32 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "/Users/pstember/Git/dotNet-goof/dotNet-goof.csproj": {}
+    "/Users/raphabot/Documents/Dev/demos/dotNet-goof/dotNet-goof.csproj": {}
   },
   "projects": {
-    "/Users/pstember/Git/dotNet-goof/dotNet-goof.csproj": {
+    "/Users/raphabot/Documents/Dev/demos/dotNet-goof/dotNet-goof.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/pstember/Git/dotNet-goof/dotNet-goof.csproj",
+        "projectUniqueName": "/Users/raphabot/Documents/Dev/demos/dotNet-goof/dotNet-goof.csproj",
         "projectName": "dotNet-goof",
-        "projectPath": "/Users/pstember/Git/dotNet-goof/dotNet-goof.csproj",
-        "packagesPath": "/Users/pstember/.nuget/packages/",
-        "outputPath": "/Users/pstember/Git/dotNet-goof/obj/",
+        "projectPath": "/Users/raphabot/Documents/Dev/demos/dotNet-goof/dotNet-goof.csproj",
+        "packagesPath": "/Users/raphabot/.nuget/packages/",
+        "outputPath": "/Users/raphabot/Documents/Dev/demos/dotNet-goof/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "/Users/pstember/.nuget/NuGet/NuGet.Config"
+          "/Users/raphabot/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp2.2"
+          "netcoreapp3.1"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp2.2": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -37,24 +35,45 @@
         }
       },
       "frameworks": {
-        "netcoreapp2.2": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
-            "Microsoft.NETCore.App": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[2.2.0, )",
-              "autoReferenced": true
-            },
             "System.Management.Automation": {
               "target": "Package",
               "version": "[6.1.0, )"
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.osx-x64",
+              "version": "[3.1.32, 3.1.32]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.401/RuntimeIdentifierGraph.json"
         }
       }
     }
